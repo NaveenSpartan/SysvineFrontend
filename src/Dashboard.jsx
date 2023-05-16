@@ -182,10 +182,10 @@ const Dashboard = (props) => {
             style={{ marginTop: 5 }}
             gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
           >
-            <Col className="gutter-row" span={6}>
+            <Col className="gutter-row" span={8}>
               <div>Patient Name:</div>
             </Col>
-            <Col className="gutter-row" span={18}>
+            <Col className="gutter-row" span={16}>
               <div>
                 <Input
                   onChange={(e) =>
@@ -200,10 +200,10 @@ const Dashboard = (props) => {
             style={{ marginTop: 5 }}
             gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
           >
-            <Col className="gutter-row" span={6}>
+            <Col className="gutter-row" span={8}>
               <div>Doctor Name:</div>
             </Col>
-            <Col className="gutter-row" span={18}>
+            <Col className="gutter-row" span={16}>
               <div>
                 <Input
                   onChange={(e) =>
@@ -218,10 +218,10 @@ const Dashboard = (props) => {
             style={{ marginTop: 5 }}
             gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
           >
-            <Col className="gutter-row" span={6}>
+            <Col className="gutter-row" span={8}>
               <div>Appointment Date:</div>
             </Col>
-            <Col className="gutter-row" span={18}>
+            <Col className="gutter-row" span={16}>
               <div>
                 <Input
                   onChange={(e) =>
@@ -237,10 +237,10 @@ const Dashboard = (props) => {
             style={{ marginTop: 5 }}
             gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
           >
-            <Col className="gutter-row" span={6}>
+            <Col className="gutter-row" span={8}>
               <div>Appointment Time:</div>
             </Col>
-            <Col className="gutter-row" span={18}>
+            <Col className="gutter-row" span={16}>
               <div>
                 <Input
                   onChange={(e) =>
@@ -265,10 +265,10 @@ const Dashboard = (props) => {
             style={{ marginTop: 5 }}
             gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
           >
-            <Col className="gutter-row" span={6}>
+            <Col className="gutter-row" span={8}>
               <div>Patient Name:</div>
             </Col>
-            <Col className="gutter-row" span={18}>
+            <Col className="gutter-row" span={16}>
               <div>
                 <Input
                   onChange={(e) =>
@@ -283,10 +283,10 @@ const Dashboard = (props) => {
             style={{ marginTop: 5 }}
             gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
           >
-            <Col className="gutter-row" span={6}>
+            <Col className="gutter-row" span={8}>
               <div>Doctor Name:</div>
             </Col>
-            <Col className="gutter-row" span={18}>
+            <Col className="gutter-row" span={16}>
               <div>
                 <Input
                   onChange={(e) =>
@@ -302,10 +302,10 @@ const Dashboard = (props) => {
             style={{ marginTop: 5 }}
             gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
           >
-            <Col className="gutter-row" span={6}>
+            <Col className="gutter-row" span={8}>
               <div>Appointment Date:</div>
             </Col>
-            <Col className="gutter-row" span={18}>
+            <Col className="gutter-row" span={16}>
               <Input
                 onChange={(e) =>
                   setState({ ...state, appointment_date: e.target.value })
@@ -320,10 +320,10 @@ const Dashboard = (props) => {
             style={{ marginTop: 5 }}
             gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
           >
-            <Col className="gutter-row" span={6}>
+            <Col className="gutter-row" span={8}>
               <div>Appointment Date:</div>
             </Col>
-            <Col className="gutter-row" span={18}>
+            <Col className="gutter-row" span={16}>
               <Input
                 onChange={(e) =>
                   setState({ ...state, appointment_time: e.target.value })
